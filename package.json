@@ -1,0 +1,28 @@
+{
+  "name": "mynotes",
+  "version": "1.0.0",
+  "description": "vuepress构建静态笔记",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Change-now/MyNotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Change-now/MyNotes/issues"
+  },
+  "homepage": "https://github.com/Change-now/MyNotes#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
