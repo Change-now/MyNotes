@@ -1,10 +1,10 @@
 const moment = require('moment');//引入插件--自动追踪更新日期
 moment.locale("zh-CN")//设置为中国时间
 module.exports = {
+  base:'/MyNotes/',//部署到GitHub
   title:'教程',
   description:'是的我在瞎扯',
   themeConfig: {
-    base:'/MyNotes/',//部署到GitHub
     lastUpdated: '更新时间',
     logo: '/assets/img/favicon.ico',
     //网站信息
